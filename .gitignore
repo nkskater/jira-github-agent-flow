@@ -1,0 +1,9 @@
+CLAUDE.md
+.claude/
+.antigravity/
+.agents/
+.gemini/
+node_modules/
+.env
+.env.*
+*.log

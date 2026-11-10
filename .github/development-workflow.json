@@ -1,0 +1,21 @@
+{
+  "projectKeys": [
+    "DEMO"
+  ],
+  "jiraUrl": "https://example.atlassian.net",
+  "repository": "example/service",
+  "baseBranch": "main",
+  "statuses": {
+    "todo": "To Do",
+    "active": "In Progress",
+    "review": "In Review",
+    "done": "Done"
+  },
+  "ownershipLabelPrefix": "agent:",
+  "localChecks": [
+    "node --test tools/development-workflow/*.test.mjs"
+  ],
+  "requiredChecks": [
+    "Workflow policy"
+  ]
+}
